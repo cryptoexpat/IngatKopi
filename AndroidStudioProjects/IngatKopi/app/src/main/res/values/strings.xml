@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IngatKopi</string>
+    <string name="action_settings">Settings</string>
+    <string name="production_area">Production Area</string>
+    <string name="place">Place</string>
+    <string name="edit_others">Other Comments</string>
+    <string name="goToEvaluate">Go to Evaluate</string>
+</resources>
