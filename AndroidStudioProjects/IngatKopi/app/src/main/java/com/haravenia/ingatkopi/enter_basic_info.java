@@ -1,5 +1,6 @@
 package com.haravenia.ingatkopi;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -81,7 +82,8 @@ public class enter_basic_info extends AppCompatActivity {
         goToEvaluate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(getApplication(), EnterEvaluationActivity.class);
+                startActivity(intent);
             }
         });
 
